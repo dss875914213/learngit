@@ -1,0 +1,20 @@
+功能									使用的IO口                            IO口的个数		是否有用
+1.interaction
+蓝牙									！PB10(TX)/11(RX)（USART3）					2				xx
+OLED(模拟SPI)							！PB5-8										4				OK
+按键 									！PB9										1				OK
+LED 									！PC13   									1				OK
+2.sensor
+电压检测 								！PA4（ADC1通道4）							1				OK
+3.Actuator
+电机控制 								！PA1/2 ！PA0/PC13/14/15					6				OK
+继电器									！PA5										1				OK
+4.Other	
+STLINK接口 							 	！PA13(SWDIO)/14(SWCLK)						2				OK
+（共）  																			18
+
+使用																																										
+PA 4/5/8/11/13/14/15
+PB 4/10/11/12/13/14/15
+PC 13/14/15
+
